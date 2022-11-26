@@ -529,8 +529,9 @@ video {
 
 /* sets border color */
 
-input .email-box {
+.email-box {
     border-color: black;
+    color: #000000;
 }
 
 /*......................................................... MEDIA QUERIES */
