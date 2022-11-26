@@ -68,67 +68,55 @@
     </div>
     <div class="container-wrapper">
         <div class="container band-container content-container">
-            
+            <!-- Band -->
+            <section id="band">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h2 class="text-title">Single</h2>
+                            <hr class="block-divider block-divider--black">
+                            <p class=" text-muted">Listen on spotify</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/36zlCb20dGMKESJhfZ3fFu?utm_source=generator" width="100%" height="352" 
+        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </section>
+        </div>
+        <!-- /.band -->
     </div>
     <div class="container-wrapper gigs-container">
         <div class="gig-opaque-overlay">&nbsp;</div>
         <div class="container-fluid  content-container ">
-            
-        </div>
-    </div>
-    <div class="container-wrapper music-container">
-        <div class="container-fluid  content-container">
-            <!-- Music -->
+            <!-- Gigs -->
             <section id="music">
                 <div class="row">
-                    <br>
                     <div class="col-xs-12">
                         <div class="page-header">
-                            <h2 class="text-title">Music</h2>
-                            <hr class="block-divider block-divider--black">
-                            <p class=" text-muted">Single</p>
+                            <h2 class="text-title white-title">Music</h2>
+                            <hr class="block-divider block-divider--white">
+                            <p class=" gigs-text text-muted">A selection of my favourite songs</p>
+                            <br>
                         </div>
                     </div>
                 </div>
-                <div class="row audio-section">
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/36zlCb20dGMKESJhfZ3fFu?utm_source=generator" width="100%" height="352" 
-        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    
-                </div>
-            </section>
-            <!-- /.music -->
-        </div>
-    </div>
-        <div class="container-wrapper music-container">
-        <div class="container-fluid  content-container">
-            <!-- Music -->
-            <section id="favmusic">
-                <div class="row">
-                    <br>
-                    <div class="col-xs-12">
-                        <div class="page-header">
-                            <h2 class="text-title">Music</h2>
-                            <hr class="block-divider block-divider--black">
-                            <p class=" text-muted"> A selection of my favourite songs</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row audio-section">
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="row gigs-section">
+                    <div class="col-xs-12 col-md-12 ">
+                       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-acade847-4a6e-42b1-807a-d9df327ed17d"></div>
-                    
                 </div>
             </section>
-            <!-- /.music -->
+            <!-- /.gigs -->
         </div>
     </div>
-   
+    
     <div class="container-wrapper video-container">
         <div class="container-fluid content-container">
             <!-- Video -->
             <section id="video">
                 <div class="row">
-                     <br>
                     <div class="col-xs-12">
                         <div class="page-header">
                             <h2 class="text-title white-title">Video</h2>
@@ -138,13 +126,14 @@
                         </div>
                     </div>
                 </div>
-                
-                        
-                        <div class="row audio-section">
-          
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div>
+            <!--                <video controls preload="metadata"><source src=" ./video/TheMonkees.mp4#t=0.5" type="video/mp4"> Your browser does not support the video tag.</video> -->
                             <iframe width="415" height="270" src="https://www.youtube.com/embed/b4yI_qifThM" title="YouTube video player" 
                                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- /.video -->
@@ -154,9 +143,7 @@
         <footer>
             <div class="container-fluid content-container ">
                 <!-- Social -->
-<div class="container-fluid content-container">
-            <!-- Video -->
-            <section id="follow">
+                <section id="follow">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="page-header">
@@ -164,12 +151,8 @@
                             <hr class="block-divider block-divider--black">
                             <br>
                         </div>
-
-
-<!-- <img class=" img-logo center-block" alt="logo" src=" ./images/logo.png" height="199" width="199" /> -->
-<!-- <img src=" ./images/logo.png" alt="" width="100" height="100" id="hp"/> -->
                         <ul class="social-list list-inline">
-                            <li>
+                           <li>
                                 <a href="https://open.spotify.com/artist/3r2PoSVYqMsvqp9CLJTsMW" target="_blank"><i class="fa fa-spotify"></i></a>
                             </li>
                              <li>
@@ -181,17 +164,16 @@
                             <li>
                                 <a href="https://facebook.com/itsyasar.arafat" target="_blank"><i class="fa fa-facebook"></i></a>
                             </li>
-
                         </ul>
                         <br>
-                        
-      <form class="contact-form" id="signup" action="https://airform.io/yasararafat8426@gmail.com" method="post">
+                        <form class="contact-form" id="signup" action="https://airform.io/yasararafat8426@gmail.com" method="post">
   <input class="email-box" type="text" name="Email" placeholder="Enter email to get updates" required type="email">
   <button class="btn--cta " id="submit-button">Subscribe</button>
 </form>
                         <br>
                         <br>
-<p style="text-align: center">Created By:  <a href="https://github.com/yasar-arafath"> Yasar Arafat</a></p>
+                       <p style="text-align: center">Created By:  <a href="https://github.com/yasar-arafath"> Yasar Arafat</a></p>
+                        <br>
                         <p class="text-center"><a id="back" href="#top">Back to top</a></p>
                     </div>
                 </div>
@@ -199,9 +181,49 @@
             </div>
         </footer>
     </div>
-
     <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        
+        <!-- Modal -->
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Book The Monkees!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="event">Event Type*</label>
+                            <select class="form-control" id="event" required>
+                                        <option disabled value="" selected hidden>Select an event type</option>
+                                        <option>Wedding</option>
+                                        <option>Private Function</option>
+                                        <option>Christmas Party</option>
+                                        <option>Corporate Event</option>
+                                        <option>Funeral</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date*</label>
+                            <input type="date" class="form-control" id="date" required>
+                            <p class="help-block">* Required</p>
+                        </div>
+                        <div class="text-center">
+                            <input class="btn btn-success" type="submit" name="btnADD" id="btnADD" value="Submit Booking" onclick="disableButton(this)"/>
+                        </div> <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -225,8 +247,6 @@
             button.form.submit();
         }
     </script>
-<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-<div class="commonninja_component pid-185f5d18-63f3-4418-abfd-f4171dbde789"></div>
 </body>
 
 </html>
