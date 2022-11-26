@@ -105,7 +105,7 @@ text-align: center;
 
 /* background image settings for video section */
 
-.video-container {
+.video-containerhtml {
     background-image: url("../images/video-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
