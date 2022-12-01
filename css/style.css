@@ -85,9 +85,10 @@ text-align: center;
 
 /* padding added to top and bottom of sections*/
 
-.responsivea {
-  width: 100%;
-  height: auto;
+.responsivea {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .content-container {
