@@ -85,6 +85,11 @@ text-align: center;
 
 /* padding added to top and bottom of sections*/
 
+.responsivea {
+  width: 100%;
+  height: auto;
+}
+
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
